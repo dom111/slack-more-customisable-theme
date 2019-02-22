@@ -1,0 +1,22 @@
+.slack-theme--enabled .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight),.c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight),.c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
+	transition: background-color .5s;
+	background-color: var(--page-background-highlight, rgba(255, 255, 255, .2));
+}
+
+.slack-theme--enabled .c-scrollbar__hider, .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider,
+	.p-message_pane .c-message_list:not(.c-virtual_list--scrollbar) {
+	transition: background-color .5s, color .5s;
+	background-color: var(--page-background);
+	color: var(--page-foreground);
+}
+
+.slack-theme--enabled .c-message--light .c-message__sender .c-message__sender_link,
+.slack-theme--enabled .c-message_attachment {
+	transition: color .5s;
+	color: var(--page-foreground);
+}
+
+.slack-theme--enabled .TBC {
+	transition: background-color .5s;
+	background-color: var(--page-background);
+}
